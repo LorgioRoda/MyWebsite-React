@@ -3,15 +3,18 @@
   }
   
   .nav-theme {
-    background-color: #10141e;
+    background-color:transparent;
     font-size: 20px;
   }
   .navbar-dark .navbar-nav .nav-link{
-    color: white;
+    color: #454eeb;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-size: 1.8rem;
   }
-  .animate-navbar {
-    box-shadow: 1px 1px 1px #222;
-    animation: moveDown 0.5s ease-in-out;
+  .navbar-dark .navbar-nav .nav-link:hover{
+    background-color: #454eeb;
+    border-radius: 15%;
+    color: white;
   }
   
   @keyframes moveDown {

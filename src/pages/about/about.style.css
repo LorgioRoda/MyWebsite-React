@@ -1,0 +1,13 @@
+.about {
+    background-color: transparent;
+    font-size: 1.2em;
+    text-align: justify;
+  }
+  
+  .profile {
+    max-width: 24em;
+  }
+  
+  h1 {
+      color: #6610f2;
+  }
