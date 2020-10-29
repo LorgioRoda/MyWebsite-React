@@ -2,6 +2,7 @@
     background-color: transparent;
     font-size: 1.2em;
     text-align: justify;
+    font-family:"Karla", sans-serif;;
   }
   
   .profile {
@@ -10,4 +11,5 @@
   
   h1 {
       color: #6610f2;
+      font-family: "Karla", sans-serif;
   }
