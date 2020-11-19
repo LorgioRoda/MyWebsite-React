@@ -1,5 +1,5 @@
 .logo {
-    width: 25%;
+    width: 30%;
   }
   
   .nav-theme {
@@ -16,7 +16,10 @@
     border-radius: 15%;
     color: white;
   }
-  
+  animate-navbar {
+    box-shadow: 1px 1px 1px #222;
+    animation: moveDown 0.5s ease-in-out;
+  }
   @keyframes moveDown {
     from {
       transform: translateY(-5rem);

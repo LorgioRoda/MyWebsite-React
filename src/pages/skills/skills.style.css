@@ -1,3 +1,4 @@
+
 .focus {
     transition: transform 0.3s;
   }
@@ -9,21 +10,51 @@
   .card-title {
     font-size: 2em;
     font-weight: 700;
+    color: #101522;
   }
   
   .image-style {
-    width: 11em;
-    display: block;
+    width: 13em;
+    display: inline;
+    margin: 0;
   }
   
   .font-details {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 500;
-    color: #231d5af8;
+    color: #101522;
   }
   
   .font-details-b {
     font-size: 4em;
     font-weight: 500;
-    color: #231d5af8;
+    color: #101522;
   }
+  .p-4{
+    padding: 0;
+    padding: 0;
+  }
+@media (max-width: 400px){
+.image-style {
+  width: 11em;
+  display: inline;
+  margin: 0;
+}
+.card-title {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #101522;
+}
+}
+@media only screen and (min-width: 600px){
+  .image-style {
+    width: 5em;
+    display: inline;
+    margin: 0;
+  }
+  .card-title {
+    font-size: 1em;
+    font-weight: 700;
+    color: #101522;
+  }
+}

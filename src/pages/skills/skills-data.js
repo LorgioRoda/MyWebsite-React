@@ -1,6 +1,6 @@
-import L_icon1 from "../../assets/img/skills/icon1.svg";
-import L_icon2 from "../../assets/img/skills/icon2.svg";
-import L_icon3 from "../../assets/img/skills/icon3.svg";
+import L_icon1 from "../../assets/img/skills/lr-icons-final/Frontend.svg";
+import L_icon2 from "../../assets/img/skills/lr-icons-final/Software.svg";
+import L_icon3 from "../../assets/img/skills/lr-icons-final/Ecommer.svg";
 
 
 

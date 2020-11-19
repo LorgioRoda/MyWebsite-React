@@ -29,7 +29,7 @@ const About = () => {
                             Hi there! I am <strong>&nbsp;Lorgio Roda</strong>
                             <br />A passionate programmer, born and brought up in Bolivia. I am a Web Developer with React.js and Node.js, as my tech stack.
                             <br />
-                            In 2019, I began my programming career self taught, using also learning platforms like Platzi and Freebootcamp.
+                            In 2019, I began my programming career self taught, using also learning platforms like Platzi and Freecodecamp.
                             <br />
                             When working with clients, my goal is always driven towards providing a great experience with the best level of communication, quality and service to them.
                             <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.

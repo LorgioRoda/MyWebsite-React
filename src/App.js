@@ -11,6 +11,7 @@ import About from "./pages/about/about.component";
 import Skills from  './pages/skills/skill.component';
 import ContactForm from "./pages/contact-form/contact-form.component";
 
+
 import './App.css';
 
 const App = () => {

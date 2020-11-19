@@ -8,8 +8,8 @@
   .profile {
     max-width: 24em;
   }
-  
-  h1 {
-      color: #6610f2;
-      font-family: "Karla", sans-serif;
-  }
+
+.about h1 {
+  font-size: 4em;
+}
+

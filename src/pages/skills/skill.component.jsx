@@ -24,7 +24,7 @@ const Skills = () => {
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                 {
                     skills.frontendDeveloper.map((skill, index) => (
-                        <span className="p-4" key={index}>
+                        <span className="p-3" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
                         <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
                       </a>
@@ -44,7 +44,7 @@ const Skills = () => {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   {skills.SoftwareDevelopment.map((skill, index) => (
-                    <span className="p-4" key={index}>
+                    <span className="p-3" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
                         <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
                       </a>
@@ -64,7 +64,7 @@ const Skills = () => {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   {skills.Ecommerce.map((skill, index) => (
-                    <span className="p-4" key={index}>
+                    <span className="p-3" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
                         <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
                       </a>
