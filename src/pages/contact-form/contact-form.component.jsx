@@ -16,29 +16,29 @@ const ContactForm = () => {
             <Col className="d-flex justify-content-center flex-wrap">
               <div className="m-2">
                 <a href="mailto:lorgiorodaroca@gmail.com" target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline-danger" title="lorgiorodaroca@gmail.com">
+                  <Button variant="btn btn-danger" title="lorgiorodaroca@gmail.com">
                     <i className="fas fa-envelope-square"></i> Email Me
                   </Button>
                 </a>
               </div>
               <div className="m-2">
                 <a href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/" target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline-primary" title="Visit my LinkenIn">
+                  <Button variant="btn btn-info" title="Visit my LinkenIn">
                     <i className="fab fa-linkedin"></i> LinkedIn
                   </Button>
                 </a>
               </div>
               <div className="m-2">
                 <a href="https://twitter.com/roda_lorgio" target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline-info" title="Tweets are welcomed!">
+                  <Button variant="btn btn-primary" title="Tweets are welcomed!">
                     <i className="fab fa-twitter"></i> Twitter
                   </Button>
                 </a>
               </div>
               <div className="m-2">
-                <a href="https://www.facebook.com/lorgio.rodaroca/" target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline-primary" title="Say hello on FB">
-                    <i className="fab fa-facebook-square"></i> FaceBook
+                <a href="https://wa.link/r590np" target="_blank" rel="noopener noreferrer">
+                  <Button variant="btn btn-success" title="Say hello on Whatsapp">
+                    <i className="fab fa-whatsapp "></i> Whatsapp 
                   </Button>
                 </a>
               </div>
