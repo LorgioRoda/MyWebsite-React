@@ -1,5 +1,30 @@
 .contact-jumbotron {
-    background-color:#10141e;
+    background-color: #10141e;
     background-size: cover;
     background-repeat: no-repeat;
+}
+/*Bottom*/
+.btn-primary {
+    color: #fff;
+    background-color: #10141e;
+    border-color: #fff;
+    width: 8rem;
+}
+.btn-success {
+    color: #fff;
+    background-color:#10141e;
+    border-color: #fff;
+    width: 8rem;
+}
+.btn-info {
+    color: #fff;
+    background-color: #10141e;
+    border-color: #fff;
+    width: 8rem;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #10141e;
+    border-color: #fff;
+    width: 8rem;
 }
