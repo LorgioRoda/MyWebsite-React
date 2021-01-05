@@ -7,6 +7,10 @@
     transform: scale(1.05);
   }
   
+  .card-body {
+    max-width: 100%;
+    margin: auto;
+  }
   .card-title {
     font-size: 2em;
     font-weight: 700;
@@ -14,7 +18,7 @@
   }
   
   .image-style {
-    width: 13em;
+    max-width: 100%;
     display: inline;
     margin: 0;
   }
@@ -30,32 +34,19 @@
     font-weight: 500;
     color: #101522;
   }
-  .p-4{
-    padding: 0;
-    padding: 0;
+
+  .p-3 {
+    text-align: center;
   }
-@media (max-width: 400px){
+
+@media (max-width: 768px){
 .image-style {
-  width: 11em;
+  max-width: 100%;
   display: inline;
   margin: 0;
 }
 .card-title {
-  font-size: 1.5em;
   font-weight: 700;
   color: #101522;
 }
-}
-@media only screen and (max-width: 600px){
-  .image-style {
-    max-width: 100%;
-    display: flex;
-    margin: 0;
-    align-items: center;
-  }
-  .card-title {
-    font-size: 1.5em;
-    font-weight: 700;
-    color: #101522;
-  }
-}
+} 
