@@ -1,52 +1,51 @@
-
 .focus {
-    transition: transform 0.3s;
-  }
-  
-  .focus:hover {
-    transform: scale(1.05);
-  }
-  
-  .card-body {
-    max-width: 100%;
-    margin: auto;
-  }
-  .card-title {
-    font-size: 2em;
-    font-weight: 700;
-    color: #101522;
-  }
-  
-  .image-style {
-    max-width: 100%;
-    display: inline;
-    margin: 0;
-  }
-  
-  .font-details {
-    font-size: 2em;
-    font-weight: 500;
-    color: #101522;
-  }
-  
-  .font-details-b {
-    font-size: 4em;
-    font-weight: 500;
-    color: #101522;
-  }
+  transition: transform 0.3s;
+}
 
-  .p-3 {
-    text-align: center;
-  }
+.focus:hover {
+  transform: scale(1.05);
+}
 
-@media (max-width: 768px){
+.card-body {
+  max-width: 100%;
+  margin: auto;
+}
+.card-title {
+  font-size: 2em;
+  font-weight: 700;
+  color: #101522;
+}
+
 .image-style {
   max-width: 100%;
   display: inline;
   margin: 0;
 }
-.card-title {
-  font-weight: 700;
+
+.font-details {
+  font-size: 2em;
+  font-weight: 500;
   color: #101522;
 }
-} 
+
+.font-details-b {
+  font-size: 4em;
+  font-weight: 500;
+  color: #101522;
+}
+
+.p-3 {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .image-style {
+    max-width: 100%;
+    display: inline;
+    margin: 0;
+  }
+  .card-title {
+    font-weight: 700;
+    color: #101522;
+  }
+}
