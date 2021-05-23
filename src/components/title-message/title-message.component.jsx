@@ -54,7 +54,6 @@ const TitleMessage = () => (
         </div>
       </div>
     </MyTitleMessage>
-    
 )
 
 
